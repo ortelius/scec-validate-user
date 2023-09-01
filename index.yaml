@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   scec-validate-user:
   - apiVersion: v2
+    appVersion: 11.0.125
+    created: "2023-09-01T15:38:58.386196366Z"
+    description: Domain microservice
+    digest: dbd9a2f97085b5114e421ac3a605e1ad38bff258668eff31599453649fc848f8
+    icon: https://ortelius.github.io/ortelius-charts/logo.png
+    name: scec-validate-user
+    type: application
+    urls:
+    - https://github.com/ortelius/scec-validate-user/releases/download/scec-validate-user-11.0.125/scec-validate-user-11.0.125.tgz
+    version: 11.0.125
+  - apiVersion: v2
     appVersion: 11.0.123
     created: "2023-09-01T11:12:38.361847563Z"
     description: Domain microservice
@@ -474,4 +485,4 @@ entries:
     urls:
     - https://github.com/ortelius/scec-validate-user/releases/download/scec-validate-user-11.0.7/scec-validate-user-11.0.7.tgz
     version: 11.0.7
-generated: "2023-09-01T11:12:38.361353236Z"
+generated: "2023-09-01T15:38:58.385590355Z"
