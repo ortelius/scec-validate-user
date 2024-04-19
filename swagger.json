@@ -1,7 +1,7 @@
 {
     "swagger": "2.0",
     "info": {
-        "description": "RestAPI for the Domain Object",
+        "description": "RestAPI for the Domain Object\n![Release](https://img.shields.io/github/v/release/ortelius/scec-validate-user?sort=semver)\n![license](https://img.shields.io/github/license/ortelius/scec-validate-user)\n\n![Build](https://img.shields.io/github/actions/workflow/status/ortelius/scec-validate-user/build-push-chart.yml)\n[![MegaLinter](https://github.com/ortelius/scec-validate-user/workflows/MegaLinter/badge.svg?branch=main)](https://github.com/ortelius/scec-validate-user/actions?query=workflow%3AMegaLinter+branch%3Amain)\n![CodeQL](https://github.com/ortelius/scec-validate-user/workflows/CodeQL/badge.svg)\n[![OpenSSF-Scorecard](https://api.securityscorecards.dev/projects/github.com/ortelius/scec-validate-user/badge)](https://api.securityscorecards.dev/projects/github.com/ortelius/scec-validate-user)\n\n![Discord](https://img.shields.io/discord/722468819091849316)",
         "title": "Ortelius v11 Domain Microservice",
         "termsOfService": "http://swagger.io/terms/",
         "contact": {
@@ -14,8 +14,7 @@
         },
         "version": "11.0.0"
     },
-    "host": "localhost:3000",
-    "basePath": "/msapi/domain",
+    "host": "localhost:8080",
     "paths": {
         "/msapi/domain": {
             "get": {
